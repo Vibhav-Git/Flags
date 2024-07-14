@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt&display=swap');
+
+
+body{
+    background-color: #FFF9D0;
+}
+
+.container{
+    background-color: #5AB2FF;
+    height: 500px;
+    width: 40%;
+    position: relative;
+    top: 80px;
+    left: 30%;
+    border-radius: 20%;
+}
+
+
+.nav{
+    position: absolute;
+    height: 60px;
+    width: 110%;
+    left:-5%;
+    top: -5%;
+}
+
+
+
+.button{
+    position: absolute;
+    background-color: white;
+    height: 130%;
+    width: 140px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.button   img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#next{
+    right: 0px;
+}
+
+.contact-card{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.contact-card > div > img{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 20%;
+    left: 25%;
+    border-radius:50%;
+}
+
+.contact-card > h1{
+    position: absolute;
+    top: 70%;   
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+}
